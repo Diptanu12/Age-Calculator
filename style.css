@@ -1,0 +1,108 @@
+body{
+    font-family:  Arial, Helvetica, sans-serif;
+    background-image: url("https://images.pexels.com/photos/2649403/pexels-photo-2649403.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 550px;
+    background-color: #eee;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    padding: 60px 32px;
+    background: rgba(255, 255, 255, 0.04);
+    box-shadow: -1px 4px 28px 0px rgba(0, 0, 0, 0.75);
+}
+.block{
+    width: 135px;
+    padding: 5px 20px;
+    margin-left: 20px;
+    display: inline-block;
+   
+
+}
+.base{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    display: block;
+    float: none;
+
+}
+.base h4{
+    font-size: 26px;
+    text-align: center;
+    font-family:  cursive;
+    font-weight: bold;
+    margin-top: 0px;
+border: 1px solid rgb(5, 92, 126);
+    font-size: 34px;
+    color: navy;
+    border-radius: 10px;
+}
+.title{
+    font-size: larger;
+    text-align: left;
+    font-family: cursive;
+    font-weight: bold;
+    line-height: 0.5;
+    letter-spacing: 0.5px;
+    word-spacing: 2.7px;
+    color: rgb(143, 2, 2);
+}
+
+input[type="text"]{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    outline: none;
+    min-height: 50px;
+    background-color: rgb(247, 239, 230);
+    color: #042642;
+    font-size: 17px;
+    text-align: center;
+}
+input[type="text"]:focus{
+  background-color: #f8bebe;
+  border: 2px solid seagreen;
+  outline: none;
+}
+input[type="button"]{
+    width: 150px;
+    margin-top: 40px;
+    margin-left: 35%;
+    outline: none;
+  border: none;
+  border-radius: 5px;
+    padding: 14px 16px;
+    text-align: center;
+    background-color: #0761b6;
+    color: #ffffff;
+    font-size: 16px;
+}
+input[type="button"]:hover{
+    background-color: #003669;
+}
+#age{
+    margin: 20px;
+    text-align: center;
+    border: 2px solid rgb(184, 11, 11);
+    padding: 20px;
+    border-radius: 10px;
+    font-family: cursive;
+    font-size: larger;
+    font-weight: bold;
+    color: #eee;
+}
