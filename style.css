@@ -2,7 +2,7 @@ body{
     font-family:  Arial, Helvetica, sans-serif;
     background-image: url("https://images.pexels.com/photos/2649403/pexels-photo-2649403.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
-    background-repeat: no-repeat;
+    
     font-size: 15px;
     line-height: 1.5;
     padding: 0;
@@ -12,14 +12,11 @@ body{
     box-sizing: border-box;
 }
 .container{
+    display: flex;
     width: 550px;
     background-color: #eee;
     border-radius: 25px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 999;
+    margin: 20px auto;
     padding: 60px 32px;
     background: rgba(255, 255, 255, 0.04);
     box-shadow: -1px 4px 28px 0px rgba(0, 0, 0, 0.75);
